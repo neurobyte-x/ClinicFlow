@@ -44,6 +44,7 @@ public class PatientController {
     }
 
     @PostMapping("/patients")
+    //PatientResponse is return type because it is what service will send after creating a patient
     public PatientResponseDTO createPatient(@Valid @RequestBody PatientRequestDTO patientRequestDTO) {
 
     }
